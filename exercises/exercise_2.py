@@ -1,6 +1,6 @@
 # Exercise 2
 # Your solution comes here
-n = int(input("enter a number"))
+n = int(input())
 if n % 2 == 0 :
     n = n +2 
     print(n)
