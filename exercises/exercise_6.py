@@ -1,2 +1,8 @@
 # Exercise 6
 # Your solution comes here
+n = False
+a = int(input())
+b = int(input())
+total = "yes" * (a / b == 0 ) or "no"
+print(total)
+
