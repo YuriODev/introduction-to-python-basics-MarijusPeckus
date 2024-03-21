@@ -6,4 +6,4 @@ i = int(input())
 hours = (i // 3600) % 24
 minutes = (i // 60) % 60
 seconds = i % 60
-print(hours,":",minutes,":",seconds )
+print(f'{hours}:{minutes:02d}:{seconds:02d}' )
