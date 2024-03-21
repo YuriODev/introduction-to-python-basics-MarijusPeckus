@@ -1,9 +1,4 @@
 # Exercise 2
 # Your solution comes here
 n = int(input())
-if n % 2 == 0 :
-    n = n +2 
-    print(n)
-else:
-    n = n +1
-    print(n)
+print(n + 2 - n % 2)

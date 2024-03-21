@@ -1,15 +1,12 @@
 # Exercise 4
 # Your solution comes here
-i = int(input())
+n = int(input())
 
+# Extract the digits
+d1 = n // 1000
+d2 = (n % 1000) // 100
+d3 = (n % 100) // 10
+d4 = n % 10
 
-d1 = i // 1000
-d2 = (i % 1000) // 100
-d3 = (i % 100) // 10
-d4 = i % 10
-
-first_part = d1+ d3 + d4
-print(first_part)
-second_part = d2 + d3
-
-print(str(first_part) + str(second_part))
+x = abs((d1 - d4) + (d2 - d3))
+print(max(1 - x, 0))
