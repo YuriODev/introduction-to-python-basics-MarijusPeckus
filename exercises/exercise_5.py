@@ -3,4 +3,4 @@
 i = int(input())
 n = int(input())
 total = i * (i < n) + n * (n >= i)
-print()
+print(total)

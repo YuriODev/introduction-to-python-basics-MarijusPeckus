@@ -1,4 +1,4 @@
 # Exercise 1
 # Your solution comes here
-a = int(input("Enter a 5 digit numberr: "))
+a = int(input())
 b = a // 10000
